@@ -1,76 +1,138 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of a Computer Engineering diploma student interested in web development and cybersecurity.">
-  <title>Nishant karnik| Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nishant Karnik — Computer Engineering student learning web development, programming, and cybersecurity.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Nishant Karnik | Computer Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <nav class="nav wrap">
-    <a class="brand" href="#home">MyPortfolio<span>.</span></a>
-    <div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
-  </nav>
-</header>
-<main>
-  <section class="hero wrap" id="home">
-    <div>
-      <p class="eyebrow">COMPUTER ENGINEERING STUDENT</p>
-      <h1>Hello, I'm <span>Nishant Karnik</span>.</h1>
-      <h2>Aspiring Web Developer &amp; Cybersecurity Enthusiast</h2>
-      <p class="intro">I’m learning programming, web development, and cybersecurity by practising concepts and building useful projects.</p>
-      <a class="btn primary" href="#projects">View Projects</a>
-      <a class="btn" href="#contact">Contact Me</a>
-    </div>
-    <aside class="profile-card">
-      <div class="avatar">YN</div>
-      <p class="eyebrow">CURRENT FOCUS</p><h3>Learn. Build. Improve.</h3>
-      <ul><li>Programming fundamentals</li><li>HTML &amp; CSS</li><li>Cybersecurity basics</li></ul>
-    </aside>
-  </section>
-  <section class="section wrap" id="about">
-    <p class="eyebrow">GET TO KNOW ME</p><h2>About Me</h2>
-    <div class="panel">
-      <p>I’m a Diploma in Computer Engineering student interested in web development, software development, and cybersecurity. I have foundational knowledge of C, C++, Python, and Java, and I’m working to strengthen my practical skills through projects.</p>
-      <p>My goal is to gain hands-on experience, learn from experienced developers, and contribute to useful projects through an internship opportunity.</p>
-    </div>
-  </section>
-  <section class="section wrap" id="skills">
-    <p class="eyebrow">WHAT I'M LEARNING</p><h2>Skills &amp; Interests</h2>
-    <div class="grid">
-      <article class="panel"><small>01</small><h3>Programming</h3><p>C, C++, Python, and Java fundamentals.</p></article>
-      <article class="panel"><small>02</small><h3>Web Development</h3><p>HTML and CSS fundamentals, improving through practice.</p></article>
-      <article class="panel"><small>03</small><h3>Cybersecurity</h3><p>Interested in security fundamentals, networking, and ethical security practices.</p></article>
-      <article class="panel"><small>04</small><h3>Core Concepts</h3><p>Object-oriented programming, data structures, and problem-solving basics.</p></article>
-    </div>
-  
-  </section>
-  <section class="section wrap" id="projects">
-    <p class="eyebrow">MY WORK</p><h2>Projects</h2>
-    <div class="grid projects">
-      <article class="panel">
-        <p class="tagline">PROJECT 01 · STARTER PROJECT</p><h3>Personal Portfolio Website</h3>
-        <p>A responsive portfolio built with HTML and CSS to introduce me, highlight my learning interests, and share contact links.</p>
-        <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive Design</span></div>
-        
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nishant Karnik home"><span class="brand-mark">N</span><span>Nishant Karnik<span class="brand-dot">.</span></span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER ENGINEERING STUDENT</p>
+        <h1>Building my skills.<br><span class="gradient-text">One project at a time.</span></h1>
+        <p class="hero-name">I'm <strong>Nishant Karnik</strong> — an aspiring web developer with an interest in cybersecurity.</p>
+        <p class="hero-description">I’m learning by practising programming fundamentals, creating web projects, and exploring how technology works. I’m looking for opportunities to learn, contribute, and grow through real-world experience.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Based in India</span><span class="meta-separator"></span><span>Open to learning opportunities</span></div>
+      </div>
+      <aside class="hero-card" aria-label="Current learning focus">
+        <div class="card-topline"><span class="card-label">CURRENT FOCUS</span><span class="sparkle">✳</span></div>
+        <div class="monogram">NK</div>
+        <h2>Learn. Build. Improve.</h2>
+        <p>Developing a strong foundation through consistent practice.</p>
+        <div class="focus-list">
+          <div><span class="focus-number">01</span><span>Web development</span><span class="focus-check">↗</span></div>
+          <div><span class="focus-number">02</span><span>Programming fundamentals</span><span class="focus-check">↗</span></div>
+          <div><span class="focus-number">03</span><span>Cybersecurity basics</span><span class="focus-check">↗</span></div>
+        </div>
+        <div class="card-footer"><span class="footer-line"></span><span>CURIOUS BY NATURE</span></div>
+      </aside>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="about-lead">I’m a Diploma student in Computer Engineering who enjoys learning how software is designed and built.</p>
+          <p>I have foundational knowledge of C, C++, Python, and Java, and I’m developing my skills in HTML and CSS. I’m also interested in cybersecurity, networking, and responsible security practices.</p>
+          <p>My current goal is to strengthen my fundamentals, build practical projects, and learn from experienced people in the technology field.</p>
+        </div>
+        <div class="about-note">
+          <span class="note-icon">✦</span>
+          <p class="note-title">My approach</p>
+          <p>Stay curious, practise consistently, ask questions, and keep improving through feedback.</p>
+          <span class="note-caption">PROGRESS OVER PERFECTION</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / WHAT I'M LEARNING</p>
+        <h2>Skills & <span class="gradient-text">interests.</span></h2>
+        <p class="section-intro">A snapshot of the areas I’m studying and practising. I’m continuing to build confidence through hands-on work.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-index">01</span><div class="skill-icon">&lt;/&gt;</div><h3>Web development</h3><p>HTML and CSS fundamentals, page structure, styling, and responsive layouts.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive design</span></div></article>
+        <article class="skill-card"><span class="skill-index">02</span><div class="skill-icon">⌘</div><h3>Programming</h3><p>Foundational programming concepts and problem-solving using familiar languages.</p><div class="tags"><span>C</span><span>C++</span><span>Python</span><span>Java</span></div></article>
+        <article class="skill-card"><span class="skill-index">03</span><div class="skill-icon">◈</div><h3>Cybersecurity</h3><p>Exploring security fundamentals, networking concepts, and ethical practices.</p><div class="tags"><span>Security basics</span><span>Networking</span></div></article>
+        <article class="skill-card"><span class="skill-index">04</span><div class="skill-icon">▤</div><h3>Computer science</h3><p>Strengthening core concepts that support software development and logical thinking.</p><div class="tags"><span>OOP basics</span><span>Data structures</span><span>DBMS</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Things I've <span class="gradient-text">built.</span></h2>
+        <p class="section-intro">A growing collection of practical work. I’ll add more projects as I complete and improve them.</p>
+      </div>
+      <article class="project-card">
+        <div class="project-visual">
+          <div class="browser-bar"><span></span><span></span><span></span><small>MY PORTFOLIO</small></div>
+          <div class="browser-content"><div class="browser-mini-brand">N<span>.</span></div><div class="browser-mini-title">Hello, I'm<br><b>Nishant Karnik.</b></div><div class="browser-mini-line"></div><div class="browser-mini-button"></div><div class="browser-mini-panel"><i></i><i></i><i></i></div></div>
+        </div>
+        <div class="project-info">
+          <div class="project-label"><span>PERSONAL PROJECT</span><span>01</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive personal website created to introduce myself, share the areas I’m learning, and make it easier for people to view my work and contact me.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
+          <a class="text-link" href="https://nishant-karnik.github.io/my-portfolio/" target="_blank" rel="noopener noreferrer">View live website <span aria-hidden="true">↗</span></a>
+          <a class="text-link secondary-link" href="https://github.com/nishant-karnik/my-portfolio" target="_blank" rel="noopener noreferrer">View source code <span aria-hidden="true">↗</span></a>
+        </div>
       </article>
-      <article class="panel">
-        <p class="tagline">PROJECT 02 · PLANNED</p><h3>More projects coming soon</h3>
-        <p>I plan to create more projects as I develop my skills in web development and cybersecurity.</p>
-        <div class="tags"><span>Practice</span><span>Continuous Learning</span></div>
-      </article>
-    </div>
-  </section>
-  <section class="section wrap" id="contact">
-    <div class="contact panel"><p class="eyebrow">LET'S CONNECT</p><h2>Open to learning opportunities</h2>
-      <p>I’m interested in connecting with people in web development and cybersecurity and learning about suitable internship opportunities.</p>
-      <div class="contact-links"><a href="https://www.linkedin.com/" target="Nishant Karnik" rel="noreferrer">LinkedIn</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a><a href="mailto: nishantkarnik43@gmail.com">Email</a></div>
-      
-    </div>
-  </section>
-</main>
-<footer><div class="wrap foot"><span>© 2026 Your Name</span><a href="#home">Back to top ↑</a></div></footer>
+      <p class="project-footnote"><span class="status-dot"></span> More projects will appear here as I complete them.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">04 / LET'S CONNECT</p>
+          <h2>Good things start<br>with a <span class="gradient-text">conversation.</span></h2>
+          <p class="contact-copy">I’m interested in connecting with developers, learning from the tech community, and hearing about suitable opportunities for students.</p>
+        </div>
+        <div class="contact-card">
+          <span class="card-label">GET IN TOUCH</span>
+          <a class="contact-email" href="mailto:nishantkarnik43@gmail.com">nishantkarnik43@gmail.com <span>↗</span></a>
+          <div class="contact-links">
+            <a href="https://github.com/nishant-karnik" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/nishant-karnik-383b52382/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+          <p class="contact-hint">Connect with me on LinkedIn or GitHub.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">N</span><span>Nishant Karnik<span class="brand-dot">.</span></span></a><p>Designed and built with HTML & CSS.</p><p>© 2026 Nishant Karnik</p></div>
+  </footer>
 </body>
 </html>
